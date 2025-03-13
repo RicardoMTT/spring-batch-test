@@ -1,14 +1,20 @@
 ## Spring Batch CSV Processor
 
-Este proyecto implementa un procesador batch en Spring Boot para procesar archivos CSV de empleados y subirlo a una base de datos. La aplicación proporciona un endpoint REST para cargar archivos CSV y procesarlos mediante Spring Batch.
+Este proyecto implementa un procesador batch en Spring Boot para procesar archivos CSV de empleados. La aplicación proporciona un endpoint REST para cargar archivos CSV y procesarlos mediante Spring Batch.
 
+### Flujo batch
+
+- Carga del archivo CSV
+- Procesamiento de cada uno de los registros
+- Cargar la información a una tabla de una base de datos
+ 
 ### Características
 
-Carga de archivos CSV a través de una API REST
-Procesamiento asíncrono de datos con Spring Batch
-Base de datos en memoria H2 para almacenamiento temporal
-Configuración de jobs y steps con Spring Batch
-Procesamiento de registros de empleados (id, nombre, salario)
+- Carga de archivos CSV a través de una API REST
+- Procesamiento asíncrono de datos con Spring Batch
+- Base de datos en memoria H2 para almacenamiento temporal
+- Configuración de jobs y steps con Spring Batch
+- Procesamiento de registros de empleados (id, nombre, salario)
 
 ### Requisitos previos
 
