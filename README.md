@@ -18,8 +18,9 @@ Este proyecto implementa un procesador batch en Spring Boot para procesar archiv
 
 ### Requisitos previos
 
-Java 17 o superior
-Maven 3.6 o superior
+- Java 17 o superior
+- Maven 3.6 o superior
+- Base de datos en memoria H2
 
 ### Solución de problemas comunes
 
